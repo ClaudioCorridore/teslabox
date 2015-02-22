@@ -14,6 +14,8 @@
 # No need to share our individual sites with each other
 /www/*
 
+/images/*
+
 # BUT....
 
 # We do have some default nginx configs that should be included

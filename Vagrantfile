@@ -66,7 +66,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder "config/", "/srv/config"
   config.vm.synced_folder "www/", "/srv/www", :owner=> 'www-data', :group=>'www-data', :mount_options => [ "dmode=775", "fmode=774" ]
-  config.vm.synced_folder "containers/", "/srv/containers", :owner => "www-data", :group=>'www-data', :mount_options => [ "dmode=775", "fmode=774" ]
+  config.vm.synced_folder "images/", "/srv/images", :owner => "www-data", :group=>'www-data', :mount_options => [ "dmode=775", "fmode=774" ]
   config.vm.synced_folder "log/", "/srv/log", :owner => "www-data"
 
   # Provider-specific configuration so you can fine-tune various
