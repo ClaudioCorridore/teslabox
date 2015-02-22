@@ -1,6 +1,6 @@
 teslabox
 ========
 
-A Vagrant configuration for modern web developer workflow.
+A Vagrant configuration for docker and node environment
 
-WIP
+This project is mainly inspired by https://github.com/Varying-Vagrant-Vagrants/VVV
