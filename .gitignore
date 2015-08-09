@@ -27,4 +27,4 @@
 !/www/hosts
 
 # And a few of our web directories are important to share.
-!/www/default/*
+!/www/default
