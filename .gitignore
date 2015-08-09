@@ -9,12 +9,14 @@
 /config/nginx-config/sites/*.conf
 
 # Log files should be ignored.
-/log/*.log
+/log/*
+!/log/Redme.md
 
 # No need to share our individual sites with each other
 /www/*
 
 /images/*
+!/images/Readme.md
 
 # BUT....
 
@@ -25,4 +27,4 @@
 !/www/hosts
 
 # And a few of our web directories are important to share.
-/www/default/*
+!/www/default/*

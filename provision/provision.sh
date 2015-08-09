@@ -99,6 +99,7 @@ rsync -rvzh --delete /srv/config/nginx-config/sites/ /etc/nginx/custom-sites/
 echo " * /srv/config/nginx-config/nginx.conf           -> /etc/nginx/nginx.conf"
 echo " * /srv/config/nginx-config/sites/               -> /etc/nginx/custom-sites"
 
+mkdir -p /srv/log/nginx
 service nginx restart
 
 echo "Cleaning the virtual machine's /etc/hosts file..."
