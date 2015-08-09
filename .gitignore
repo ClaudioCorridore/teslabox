@@ -10,7 +10,7 @@
 
 # Log files should be ignored.
 /log/*
-!/log/Redme.md
+!/log/Readme.md
 
 # No need to share our individual sites with each other
 /www/*
